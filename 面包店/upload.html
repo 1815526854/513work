@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sticky Navigation</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <h1 class="logo"><a href="/index.html">My Website</a></h1>
+        <ul>
+          
+            <li ><a href="index.html" accesskey="1" title="">Home</a></li>
+            <li><a href="About us.html" accesskey="2" title="">About US</a></li>
+            <li><a href="upload.html" accesskey="3" title="">Careers </a></li>
+            <li><a href="orderonline.php" accesskey="4" title="">Order online </a></li>
+            <li class="active"><a href="contactus.html" accesskey="5" title="">Contact Us</a></li>
+            <li><a href="Register.php" accesskey="6" title="">Register</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <img src="logo.png " >
+      <div class="container">
+        <h1>Welcome To My Bread shop</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div id="welcome" class="container">
+        <div class="title">
+                <h1>Join our team</h1>
+                <p> We are expanding our branches and need experienced baker regularly.</n>
+                    Send us your detail with the form below</br>
+                and we will be in contact shortly</p>
+    
+                <div id="three-column" class="container">
+               
+                    <div class="title">
+                        <h2>Fill out the form below and upload your cover letter and resume</h2>
+                        <form action="upload_file.php" method="post" enctype="multipart/form-data">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname"><br/>
+                            <label for="lname">Email Address:</label><br>
+                            <input type="text" id="email" name="lname"><br/>
+                            <textarea id="w3review" name="w3review" rows="4" cols="50">
+                               
+                                </textarea><br/>
+                        <label for="file">Cover Letter</label>
+                        <input type="file" name="file" id="file"><br/>
+                        <label for="file">Resume</label>
+                        <input type="file" name="file" id="file2"><br/>
+                        <input type="submit" name="submit" value="Submit"><br/>
+                    </form> 
+                    
+                    </div>
+                
+            
+            
+                </div>
+                </div>
+                </div>
+                <div class="foot">
+                    <footer>
+                  <p>Luca’s Loaves</p>
+                  
+                </footer>
+                    </div>
+    
+    
+  </body>
+</html>
